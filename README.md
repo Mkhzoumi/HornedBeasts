@@ -1,3 +1,43 @@
+#  Time Estimate
++ ## Number and name of feature: Feature #1: Display images
+
++ ## Estimate of time needed to complete: 1 hr
+
++ ## Start time: 2 pm
+
++ ## Finish time: 2:30 pm
+
++ ## Actual time needed to complete: 30 mins
+---------------------------------------------------------
+
++ ## Number and name of feature: Feature #2: Allow users to vote for their favorite beast
+
++ ## Estimate of time needed to complete: 1 hr
+
++ ## Start time: 2:40 pm
+
++ ## Finish time: 3:10 pm
+
++ ## Actual time needed to complete: 30 mins
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
