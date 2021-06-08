@@ -9,7 +9,7 @@ class Header extends React.Component {
                 <h1>Horned Beasts</h1>
                 <Nav variant="tabs" defaultActiveKey="/home">
                     <Nav.Item>
-                        <Nav.Link href="/home">Active</Nav.Link>
+                        <Nav.Link href="#">Active</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link eventKey="link-1">page 2</Nav.Link>

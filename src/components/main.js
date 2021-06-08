@@ -7,9 +7,9 @@ class Main extends React.Component{
     render(){
         return(
             this.props.Data.map((value)=>{
-              
+                
                 return(
-                <div>
+                
                 <HornedBeast 
                 title= {value.title}
                 img = {value.image_url}
@@ -18,7 +18,7 @@ class Main extends React.Component{
                 horns={value.horns}
                 selectedUpdate= {this.props.selectedUpdate}
                 />
-                </div>
+                
                 
                 )
             })
