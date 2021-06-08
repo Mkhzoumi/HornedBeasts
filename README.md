@@ -22,9 +22,15 @@
 ---------------------------------------------------------
 
 
++ ## Number and name of feature: Feature #3: Display a Modal
 
++ ## Estimate of time needed to complete: 1 hr
 
++ ## Start time: 1 pm
 
++ ## Finish time: 5:30 pm
+
++ ## Actual time needed to complete: almost 5 hrs
 
 
 
