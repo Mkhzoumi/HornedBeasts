@@ -20,8 +20,8 @@ class HornedBeast extends React.Component{
         return(
         <div>
             <h2>{this.props.title}</h2>
-            <p> {this.state.startingVoteValue}</p>
             <img src={this.props.img} alt={this.props.keyword} onClick={this.vote} />
+            <p>❤️ {this.state.startingVoteValue}</p>
             <p>{this.props.description}</p>
         </div>
         )
