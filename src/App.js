@@ -4,7 +4,7 @@ import Main from './components/main';
 import Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Data from './components/Data.json';
-import SelectedBeast from './components/SelectedBeast'
+import SelectedBeast from './components/SelectedBeast';
 
 
 class App extends React.Component {
@@ -16,6 +16,17 @@ class App extends React.Component {
       ,selectedBeast: {}
     }
   }
+
+
+  updateForm=(newHorn)=>{
+    this.setState({
+      Data:newHorn
+    })
+  }
+
+
+
+
   selectedUpdate=(title)=> {
     let selected=[];
     Data.forEach((beast)=>{
@@ -35,8 +46,13 @@ class App extends React.Component {
     return(
       <div>
         <Header />
+        {/* <UserForm
+        listHandle={this.listHandle}
+        /> */}
         <div  style={{display:'flex', 'flex-wrap': 'wrap' , gap:'0.8em' , 'justify-content':'center'}}>
         <Main
+        updateForm={this.updateForm}
+        
         Data={this.state.Data}
         selectedUpdate={this.selectedUpdate}
         />
