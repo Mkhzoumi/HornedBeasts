@@ -35,6 +35,7 @@ class HornedBeast extends React.Component {
                             </Card.Body>
                             {/* <Button variant="primary" onClick={this.update}>Primary</Button>{' '} */}
                         </Card>
+                        
             
         )
     }
