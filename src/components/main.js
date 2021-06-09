@@ -7,6 +7,8 @@ import Container from 'react-bootstrap/Container';
 
 class Main extends React.Component {
 
+
+
     listHandle = (e) => {
         let allHorns = Data;
         let newRender;
@@ -16,11 +18,13 @@ class Main extends React.Component {
                 if (value.horns === picked) {
                     return value;
                 }
+                return newRender;
             })
         } else {
             newRender = allHorns;
         }
         this.props.updateForm(newRender);
+        
     };
 
 
