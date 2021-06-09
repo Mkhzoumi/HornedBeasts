@@ -8,7 +8,6 @@ class SelectedBeast extends React.Component {
 
     handleClose = () => this.props.handleClose();
     render() {
-        console.log(this.props.Data);
         return (
 
             <Modal show={this.props.show} onHide={this.handleClose}>
@@ -18,15 +17,9 @@ class SelectedBeast extends React.Component {
                 <Modal.Body>
                     <Card.Img variant="top" src={this.props.Data.image_url} height='250em' />
                     <p>{this.props.Data.description}</p>
-
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="secondary" onClick={this.handleClose}>
-                        Close
-        </Button>
-                    {/* <Button variant="primary" onClick={this.handleClose}>
-                        Save Changes
-        </Button> */}
+                    <Button variant="secondary" onClick={this.handleClose}>Close</Button>
                 </Modal.Footer>
             </Modal>
         )

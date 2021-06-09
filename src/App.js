@@ -4,6 +4,7 @@ import Main from './components/main';
 import Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Data from './components/Data.json';
+import UserForm from './components/userForm';
 import SelectedBeast from './components/SelectedBeast'
 
 
@@ -35,6 +36,7 @@ class App extends React.Component {
     return(
       <div>
         <Header />
+        <UserForm/>
         <div  style={{display:'flex', 'flex-wrap': 'wrap' , gap:'0.8em' , 'justify-content':'center'}}>
         <Main
         Data={this.state.Data}
